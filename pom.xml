@@ -102,13 +102,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.98.123.6:8081/repository/SDM-sun-releases/</url>
+	      <url>http://172.31.6.248:8081/repository/SDM-sun-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.98.123.6:8081/repository/SDM-sundries-snapshot/</url>
+	      <url>http://172.31.6.248:8081/repository/SDM-sundries-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
