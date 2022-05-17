@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:172.31.4.127:9000/</sonar.host.url>
+		<sonar.host.url>http:http://99.79.50.190:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>#Abc123#</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -102,15 +102,17 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.6.248:8081/repository/SDM-sun-releases/</url>
+	      <url>http://3.96.54.253:8081/#browse/browse:SDM-sun-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.6.248:8081/repository/SDM-sundries-snapshot/</url>
+	      <url>http://3.96.54.253:8081/#browse/browse:/</url>
 	    </snapshotRepository>
 	    
+		<!-- <url>http://3.96.54.253:8081/#browse/browse:SDM-sundries-snapshot/</url> -->
+		
 	</distributionManagement>
 	
 	<build>
