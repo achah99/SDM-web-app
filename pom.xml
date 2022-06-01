@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.98.56.74:5500/</sonar.host.url>
+		<sonar.host.url>http://35.183.21.94:5500/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -102,13 +102,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.98.56.74:8081/repository/zara/</url>
+	      <url>http://35.183.21.94:8081/repository/zara/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	     <url>http://3.98.56.74:8081/repository/zara-snapshot/</url>
+	     <url>http://35.183.21.94:8081/repository/zara-snapshot/</url>
 	    </snapshotRepository>
 	    
 		<!-- <url>http://3.96.54.253:8081/repository/SDM-sundries-snapshot/</url> -->
